@@ -285,6 +285,7 @@ footer {
 .social-medias i {
     font-size: 2rem;
     cursor: pointer;
+    margin: 0 24px;
 }
 
 .social-medias i:hover {
@@ -350,14 +351,6 @@ footer {
         display: block;
         font-size: 2rem;
     }
-    
-    .about-container {
-        gap: 0;
-    }
-    
-    .about-container .about-image {
-        margin-bottom: 40px
-    }
 }
 
 @media (max-width: 768px) {
@@ -397,16 +390,22 @@ footer {
         height: 100%;
         object-fit: cover;
     }
-    
+
     .about-container {
         flex-direction: column;
+        align-items: center;
         text-align: center;
+        gap: 0;
+    }
+
+    .about-container .about-image {
+        margin-bottom: 40px;
     }
 
     .social-medias {
         justify-content: center;
         width: unset;
-        gap: 24px;
+        /* gap: 24px; */
     }
 }
 
