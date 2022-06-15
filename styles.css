@@ -350,6 +350,14 @@ footer {
         display: block;
         font-size: 2rem;
     }
+    
+    .about-container {
+        gap: 0;
+    }
+    
+    .about-container .about-image {
+        margin-bottom: 40px
+    }
 }
 
 @media (max-width: 768px) {
